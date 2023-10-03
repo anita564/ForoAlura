@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `foro_alura`.`courses` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(200) NOT NULL,
+  `category` VARCHAR(200) NOT NULL,
+  `active` TINYINT NOT NULL,
+
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
